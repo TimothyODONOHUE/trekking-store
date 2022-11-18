@@ -1,0 +1,639 @@
+body {
+   margin: 0;
+   padding:0;
+    
+}
+
+.img_header_fond {
+    background-image:url(".//images/paysage.png");
+    background-size:cover;
+    height:1175px;
+
+}
+
+.menu{
+    display:flex;
+    padding-left:120px;
+    padding-top:80px;
+    justify-content:space-between;
+
+    
+}
+.panier {
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    margin-right:100px;
+    position:relative;
+    bottom:10px;
+}
+
+.logo {
+    height: 55px;
+    display:flex;
+    justify-content:left;
+   
+}
+
+.menu_texte {
+    margin-left:1200px
+}
+
+.menu_texte1 {
+    text-decoration:none;
+    color:white;
+    font-size:25px;
+    margin-right:83px;
+}
+
+.menu_texte2 {
+    text-decoration:none;
+    color:white;
+    font-size:25px;
+    margin-right:50px;
+
+}
+
+.title_texte {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding-top:300px;
+}
+
+
+.title_our_clothing {
+    color:white;
+    display:flex;
+    justify-content:center;
+
+
+}
+
+.texte_our_clothing {
+    color:white;
+    display:flex;
+    justify-content:center;
+    font-size:27px;
+    text-align:center;
+}
+
+.our_clothing {
+    font-size:80px;
+    
+}
+
+.fleche_en_bas {
+    display: flex;
+    justify-content:center;
+
+}
+
+.fleche_bas {
+    height:40px;
+    margin-top:380px;
+}
+
+.chose_men_women {
+    height:180px;
+    background-color: #F5F6F7;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 18px;
+
+}
+
+.form_check1 {
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size:22px;
+    margin-left:35px;
+    margin-right:50px;
+}
+
+.form_check2 {
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size:22px;
+    margin-left:35px;
+    margin-right:50px;
+}
+
+.form_check3 {
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size:22px;
+    margin-left:35px;
+    margin-right:50px;
+}
+
+.btn {
+    width: 280px;
+    height:70px;
+    font-size: 20px;
+    background-color: #AA9B77;
+    color:white;
+    border:none;
+    text-transform: uppercase;
+    margin-right:210px;
+}
+
+[type="checkbox"] {
+    border: none;
+    font-size: 23px;
+}
+
+.men_part {
+    display:flex;
+    margin-left:95px;
+    justify-content: center;
+    margin-right:50px;
+    padding-top:120px;
+    padding-bottom:80px;
+    color: #424242;
+
+}
+
+.men_part_title {
+    display:flex;
+    text-transform: uppercase;
+    font-weight:bold;
+    position:relative;
+    bottom:18px;
+    font-size:22px;
+}
+
+.trait
+{
+    background-color: #CCCCCC;
+    height: 2pt;
+    width: 1405px;
+    margin-left:30px;
+}
+
+.rectangle1 {
+    width:350px;
+    height:400px;
+    background-color:#F5F6F7;
+    margin-left:208px;
+}
+
+.rectangle2 {
+    width:350px;
+    height:400px;
+    background-color:#F5F6F7;
+    margin-left:208px;
+}
+
+.rectangle3 {
+    width:350px;
+    height:400px;
+    background-color:#F5F6F7;
+    margin-left:208px;
+}
+
+.check_in_3 {
+    display:flex;
+    padding-left:160px;
+
+}
+
+.texte_1_5  {
+    font-weight: bold;
+    font-size: 20px;
+    color: #AA9B77;
+    position:relative;
+    Top:65px;
+    right:45px;
+}
+.texte_1_5_caractere {
+    font-weight: bold;
+    font-size: 20px;
+    color: #AA9B77;
+    position:relative;
+    Top:65px;
+    right:45px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.un_sur_cinq {
+    display:flex;
+    flex-direction:column;
+
+}
+
+.rectangle_men {
+    display: flex;
+    justify-content: space-between;
+    margin-right:208px;
+    margin-bottom:180px;
+}
+
+.form_select {
+    width: 72px;
+    margin-left:25px;
+    margin-top:25px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #F5F6F7;
+    padding:0%;
+    }
+
+.cercle1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: #165EB9;
+    margin-right: 5px;
+}
+
+    
+.cercle2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: #FFE637;
+    margin-right: 5px;
+}
+
+
+.cercle3 {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: #535253;
+    margin-right: 5px;
+}
+
+.color {
+    display:flex;
+    position: relative;
+    right:45px;
+    top:30px;
+    margin-left: 190px;
+}
+
+.size_color {
+display:flex;
+}
+
+.t_shirt_men {
+    display:flex;
+    justify-content: center;
+    align-self:center;
+    padding-top:50px;
+}
+
+.t_shirt_prix {
+    text-transform: uppercase;
+    position:relative;
+    left:25px;
+    top:60px;
+    font-size:19px;
+    font-weight: 600;
+    color: #AA9B77;
+}
+
+.prix_t_shirt {
+    position:relative;
+    left:260px;
+    top:11px;
+    font-size:24px;
+    font-weight: 600;
+    text-transform: uppercase;
+   
+}
+
+.forclaz_pants {
+    display:flex;
+    justify-content: center;
+    align-self:center;
+    padding-top:35px;
+}
+
+
+.pants_prix {
+    text-transform: uppercase;
+    position:relative;
+    left:25px;
+    top:32px;
+    font-size:19px;
+    font-weight: 600;
+    color: #AA9B77;
+}
+
+.prix_pants {
+    position:relative;
+    left:245px;
+    top:-17px;
+    font-size:24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dix_litri {
+    text-transform: uppercase;
+    position:relative;
+    font-size:19px;
+    font-weight: 600;
+    color: #000000;
+    margin-left:25px;
+    margin-top:25px;
+    
+}
+
+.prix {
+    position:relative;
+    left:245px;
+    top:8px;
+    font-size:24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.backpack_prix {
+    text-transform: uppercase;
+    position:relative;
+    left:25px;
+    top:35px;
+    font-size:19px;
+    font-weight: 600;
+    color: #AA9B77;
+}
+
+.prix_backpack {
+    position:relative;
+    top:-13px;
+    font-size:24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left:245px;
+}
+
+.women_part {
+    display:flex;
+    margin-left:95px;
+    justify-content: center;
+    margin-right:50px;
+    padding-top:-40px;
+    padding-bottom:80px;
+    color: #424242;
+
+}
+
+.women_part_title {
+    display:flex;
+    text-transform: uppercase;
+    font-weight:bold;
+    position:relative;
+    bottom:18px;
+    left:-40px;
+    font-size:22px;
+}
+
+.trait2
+{
+    background-color: #CCCCCC;
+    height: 2pt;
+    width: 1350px;
+    margin-right:90px;
+}
+
+
+.texte_1_5_2  {
+    font-weight: bold;
+    font-size: 20px;
+    color: #AA9B77;
+    position:relative;
+    left:205px;
+    bottom:20px;
+    
+}
+.texte_1_5_caractere_2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #AA9B77;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-left:205px;
+    bottom:20px;
+   
+
+}
+
+.un_sur_cinq_2 {
+    display:flex;
+    flex-direction:column;
+    
+
+    
+}
+
+.rectangle_women {
+    display: flex;
+    justify-content: space-between;
+    margin-right:208px;
+    margin-bottom:180px;
+}
+
+.giacket_women {
+    display:flex;
+    justify-content: center;
+    align-self:center;
+    padding-top:50px;
+}
+
+.giacket_prix_women {
+    text-transform: uppercase;
+    position:relative;
+    left:25px;
+    top:35px;
+    font-size:19px;
+    font-weight: 600;
+    color: #AA9B77;
+}
+
+.prix_giacket_women {
+    position:relative;
+    left:248px;
+    top:-14px;
+    font-size:24px;
+    font-weight: 600;
+    text-transform: uppercase;
+   
+}
+
+.shoes {
+    display:flex;
+    justify-content: center;
+    align-self:center;
+    padding-top:65px;
+}
+
+
+.shoes_prix {
+    text-transform: uppercase;
+    position:relative;
+    left:25px;
+    top:101px;
+    font-size:19px;
+    font-weight: 600;
+    color: #AA9B77;
+}
+
+.prix_shoes {
+    position:relative;
+    left:245px;
+    top:52px;
+    font-size:24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.t_shirt_women2 {
+    display:flex;
+    justify-content:center;
+    align-self:center;
+    padding-top:50px;
+}
+
+.t_shirt_women_prix {
+    text-transform: uppercase;
+    position:relative;
+    left:25px;
+    top:25px;
+    font-size:19px;
+    font-weight: 600;
+    color: #AA9B77;
+}
+
+.prix_t_shirt_women {
+    position:relative;
+    padding-left:248px;
+    top:-25px;
+    font-size:24px;
+    font-weight: 600;
+    text-transform: uppercase;
+   
+}
+
+.cercle4 {
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: #D3A7AC;
+    margin-right: 5px;
+    position:relative;
+    top:25px;
+}
+
+.cercle5 {
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    margin-right: 5px;
+    position:relative;
+    top:25px;
+}
+
+.color_2 {
+    display:flex;
+    position:relative;
+    left:180px;
+    
+}
+
+.size_color_last {
+    display:flex;
+}
+
+.container_bottom_page {
+    background-color: #AA9B77;
+    height:450px;
+}
+
+.texte_lorem_cadre {
+    display: flex;
+    justify-content: center;
+    padding-top:106px;
+
+}
+
+
+.texte_lorem {
+    width: 50%;
+    border: #918363 solid 2px;
+    padding: 65px 40px 65px 40px;
+    font-size: 18px;
+    text-align: center;
+    color:#424242;
+}
+
+.twitter_container {
+    height:100px;
+    background-color:#535253;
+}
+
+.twitter_logo {
+    height:35px;
+    color:#424242;
+    position:relative;
+    top:35px;
+    left:120px;
+    color:#424242;
+}
+
+.flooter {
+    height:500px;
+    background-color:#424242;
+
+}
+
+.left_side {
+    padding-top:150px;
+}
+
+.title_end {
+    padding-left:125px;
+    color: white;
+}
+
+.texte_end {
+    padding-left:125px;
+    padding-top:35px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.right_side a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.right_side {
+    
+    color:white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left:1450px;
+    position:relative;
+    bottom:140px;
+   
+
+}
